@@ -1,4 +1,7 @@
-
+body {
+  background-color: #66717eff;
+  color: #FFF;
+}
 
 .confirmation {
   display: none;
@@ -8,9 +11,20 @@
   margin: 20px;
 }
 
+.btn {
+  color: #32213aff;
+}
+
 p span {
   background-color: lightgray;
   padding-left: 2px;
   padding-right: 2px;
 }
+
+/* HEX */
+/* $color1: #32213aff Dark purple;
+$color2: #383b53ff Independence;
+$color3: #66717eff Slate gray;
+$color4: #d4d6b9ff Pale spring bud;
+$color5: #d1caa1ff Sage; */
 
