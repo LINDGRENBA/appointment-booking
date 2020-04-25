@@ -7,9 +7,58 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.5.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Document</title>
+  <title>Book an Appointment</title>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>MI Dental:</h1>
+      <h2>Book an Appointment Today</h2>
+      <p>At our office, you won't receive the boring old treatments you're used to. At MI Dental, our dentists, hygienists and dental assistants are lowered down from the ceiling by trained professionals who will hum the tune from Mission Impossible as they lower your clinician, in order to provide the full effect for your appointment. Once your appointment is finished, your clinician will be hoisted back up into the ceiling and you'll be escorted to the front dest to check out.</p>
+      <img src="img/dental-office-640x426.jpg" alt="patient chairs in a dental office">
+      <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@michaelwb?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Michael Browning"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Michael Browning</span></a>
+    </header>
+
+    <form /*action=""*/ id="booking">
+      <h2>Enter your information below.</h2>
+    
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="description">A brief description of the issues you'd like to address:</label>
+          <input type="text" id="description" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="date">Enter the date you would like to be seen, month/day/year:</label>
+          <input type="text" id="date" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="start">What time would you like your appointment to start:</label>
+          <input type="text" id="start" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="end">What time would you like your appointment to end:</label>
+          <input type="text" id="end" class="form-control">
+        </div>
+    
+    <button class="btn" type="submit">Schedule Appointment</button>
+    </form>
+
+    <div class="confirmation">
+      <p>Thank you <span class="name"></span>! Your appointment has been booked. Please check the confirmation message below. If any information is incorrect, please contact our office at 555-999-0000 to correct the details prior to your appointment.</p>
+
+      <p>You're appointment is scheduled for <span class="date"></span> from <span class="start"></span> to <span class="end"></span>. Your dentist or hygienist will be informed of the following: <span class="description"></span> prior to your appointment and can discuss this with you further at that time.</p>
+    </div>
+    
+  </div>
   
+
+  <!-- Photo by Michael Browning on Unsplash -->
 </body>
 </html>
