@@ -1,22 +1,45 @@
 body {
-  background-color: #66717eff;
+  background-color: #66717e;
   color: #FFF;
+  /* z-index: 1; */
+}
+
+header {
+  /* position: relative; */
+  color: #32213a;
+  background: url(../img/dental-office-640x426.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  background: rgba(255,255,255,.7);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
 .confirmation {
   display: none;
   padding: 20px;
   font-size: 1em;
-  border: 1px solid #000;
+  border: 1px solid #FFF;
+  border-radius: 5px;
   margin: 20px;
 }
 
 .btn {
-  color: #32213aff;
+  color: #32213a;
+  margin-bottom: 20px;
 }
 
 p span {
-  background-color: lightgray;
+  text-decoration: underline;
   padding-left: 2px;
   padding-right: 2px;
 }
